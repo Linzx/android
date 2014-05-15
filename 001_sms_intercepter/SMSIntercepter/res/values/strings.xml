@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS Intercepter</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="number">收件人:</string>
+    <string name="send">发		送</string>
+    <string name="content">内容:</string>
+    
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setbar_bg"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setbar_bg"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:gravity="top|start"
+        android:height="250dp"
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:maxHeight="200dp"
+        android:maxLines="20" />
+
+</LinearLayout>
